@@ -18,13 +18,21 @@
     
   </head>
   <body class="text-bg-success">
-      <div class="container mt-4">
+      <div class="container mt-3 min-100vh d-flex justify-content-center align-items-center">
 
-        <div class="card border-dark bg-white text-center" style="width: 25rem; height: 25rem;">
-          <!-- Espacio vacío dentro de la carta -->
-           <div class="card-body d-flex justify-content-center align-items-center">
-                <span id="getNumber" class="display-1"></span>
-           </div>     
+        <div class="card border-dark bg-white text-center position-relative" style="width: 25rem; height: 35rem;">
+          
+            <div class="position-absolute mt-0">
+                <h1 class="card-title" id="getIconTop" style="font-size: 8rem;"></h1>
+            </div> 
+
+            <div class="card-body d-flex justify-content-center align-items-center">
+                  <span id="getNumber" style="font-size:17rem; font-family:Cambria;"></span>
+            </div> 
+
+            <div class="position-absolute bottom-0 end-0 mb-0">
+                <h1 class="card-title" id="getIconBottom" style="font-size: 8rem;" ></h1>
+            </div> 
         </div>
         
       </div>
